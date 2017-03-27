@@ -11,6 +11,7 @@
 #Question 2: Read data in
 import pandas as pd
 
+#Import data
 all_ages = pd.read_csv("all-ages.csv")
 recent_grads = pd.read_csv("recent-grads.csv")
 print(all_ages[0:5])
